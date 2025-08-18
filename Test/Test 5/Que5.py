@@ -1,0 +1,9 @@
+list1 = [1, 2, 3, 4]
+list2 = [3, 4, 5, 6]
+
+union_list = list1[:]
+for item in list2:
+    if item not in union_list:
+        union_list.append(item)
+
+print("Union of lists:", union_list)
